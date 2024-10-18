@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+--bg-color: #181C14;
+--Primary-color: #7E2553;
+--Secundary-color: #FF004D;
+--Terciary-color: #FAEF5D;
+--Quaternary-color: #06D001;
+--White-color: #fff;
+--icons-color: #C8ACD6;
+--font: "Outfit", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Outfit", sans-serif ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none ;
+    }
+    
+    body{
+    background-color: var(--bg-color);
+    }
+    
+.header{
+    background-color: var(--Secundary-color);
+}
+
+.header p{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--White-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.inf{
+background-color: var(--Secundary-color);
+color: var(--Terciary-color);
+text-align: center;
+justify-content: center;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: bold;
+margin-top: 30px;
+padding: 20px;
+}
+
+.inf span{
+    color: var(--Quaternary-color);
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.img-sec{
+ width: 100%;
+ height: 400px;
+ border: 2px solid var(--Secundary-color);
+}
+
+.foot{
+justify-content: center;
+text-align: center;
+text-decoration: none;
+background-color: var(--Quaternary-color);
+padding: 15px;
+}
+
+.foot a{
+    color: var(--White-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;  
+}
+
+.foot:hover{
+    background-color:var(--Secundary-color) ;
+    color: var(--White-color);
+    transition: 0.3s ease;
+}
+
+
